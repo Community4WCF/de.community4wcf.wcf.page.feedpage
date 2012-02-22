@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1722 2011-02-03 12:52:56Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.feedpage"><![CDATA[FeedPage]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.show"><![CDATA[Feed show]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.show.description"><![CDATA[]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.add"><![CDATA[Feed add]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.add.description"><![CDATA[]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.edit"><![CDATA[Feed edit]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.edit.description"><![CDATA[]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.delete"><![CDATA[Feed delete]]></item>
+		<item name="wcf.acp.menu.link.content.feedpage.delete.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.acp.feedpage">
+		<item name="wcf.acp.feedpage.feed"><![CDATA[Feed]]></item>
+		<item name="wcf.acp.feedpage.feed.description"><![CDATA[]]></item>
+		<item name="wcf.acp.feedpage.title"><![CDATA[Title]]></item>
+		<item name="wcf.acp.feedpage.title.description"><![CDATA[Enter the title of the feed.]]></item>
+		<item name="wcf.acp.feedpage.author"><![CDATA[Author]]></item>
+		<item name="wcf.acp.feedpage.author.description"><![CDATA[Enter the author or authors of the feed.]]></item>
+		<item name="wcf.acp.feedpage.link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.feedpage.link.description"><![CDATA[Enter a link, for example for further information or your side.]]></item>
+		<item name="wcf.acp.feedpage.description"><![CDATA[Content]]></item>
+		<item name="wcf.acp.feedpage.description.description"><![CDATA[Enter a content. The use of BBCodes and Smileys is possible.]]></item>
+		<item name="wcf.acp.feedpage.add.success"><![CDATA[Feed successfully added.]]></item>
+		<item name="wcf.acp.feedpage.edit.success"><![CDATA[Feed successfully edited.]]></item>
+		<item name="wcf.acp.feedpage.delete.success"><![CDATA[Feed successfully deleted.]]></item>
+		<item name="wcf.acp.feedpage.add"><![CDATA[Feed add]]></item>
+		<item name="wcf.acp.feedpage.edit"><![CDATA[Feed edit]]></item>
+		<item name="wcf.acp.feedpage.delete"><![CDATA[Feed del]]></item>
+		<item name="wcf.acp.feedpage.delete.sure"><![CDATA[Do you want really DELETE a feed?]]></item>
+		<item name="wcf.acp.feedpage.nodata"><![CDATA[No feeds available!]]></item>
+		<item name="wcf.acp.feedpage.settings"><![CDATA[Settings]]></item>
+		<item name="wcf.acp.feedpage.notes"><![CDATA[Note]]></item>
+		<item name="wcf.acp.feedpage.notes.description"><![CDATA[After editing and sending is not directly followed the latest version in the "edit boxes" viewable, the editing page must first reload.]]></item>
+		<item name="wcf.acp.feedpage.count"><![CDATA[There are total {if $items == 1}one Feed{else}{#$items} Feeds{/if}.]]></item>
+		<item name="wcf.acp.feedpage.feedID"><![CDATA[ID]]></item>
+		<item name="wcf.acp.feedpage.link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.feedpage.pubDate"><![CDATA[Date, Time]]></item>
+		<item name="wcf.acp.feedpage.enable"><![CDATA[Feed enable]]></item>
+		<item name="wcf.acp.feedpage.disable"><![CDATA[Feed disable]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.managepages"><![CDATA[Manage Pages]]></item>
+		<item name="wcf.acp.group.option.category.user.managepages.description"><![CDATA[To manage your pages.]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewFeedPage"><![CDATA[Can see the "FeedPage"]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewFeedPage.description"><![CDATA[Members of this group can see "FeedPage" .]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.feedpage"><![CDATA[FeedPage]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.feedpage.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageoptions"><![CDATA[Feed Options]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageoptions.description"><![CDATA[Members of this group can edit the FeedPage settings under Options.]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageshow"><![CDATA[Feeds show]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageshow.description"><![CDATA[Members of this group can show feeds.]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageadd"><![CDATA[Feed add]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageadd.description"><![CDATA[Members of this group can add feeds.]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageedit"><![CDATA[Feed edit]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpageedit.description"><![CDATA[Members of this group can edit feeds.]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpagedelete"><![CDATA[Feed delete]]></item>
+		<item name="wcf.acp.group.option.admin.content.feedpage.feedpagedelete.description"><![CDATA[Members of this group can delete feeds.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.module.content.managepages"><![CDATA[Manage Pages]]></item>
+		<item name="wcf.acp.option.category.module.content.managepages.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_feedpage"><![CDATA[FeedPage]]></item>
+		<item name="wcf.acp.option.module_feedpage.description"><![CDATA[FeedPage enable.]]></item>
+		<item name="wcf.acp.option.category.feedpage"><![CDATA[FeedPage]]></item>
+		<item name="wcf.acp.option.category.feedpage.description"><![CDATA[Here you can adjust the settings for FeedPage.]]></item>
+		<item name="wcf.acp.option.category.feedpage.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.option.category.feedpage.general.description"><![CDATA[General Settings]]></item>
+		<item name="wcf.acp.option.category.feedpage.image"><![CDATA[Image]]></item>
+		<item name="wcf.acp.option.category.feedpage.image.description"><![CDATA[Image settings (Banner)]]></item>
+		<item name="wcf.acp.option.feedpage_image"><![CDATA[Image]]></item>
+		<item name="wcf.acp.option.feedpage_image.description"><![CDATA[Image enable?]]></item>
+		<item name="wcf.acp.option.feedpage_image_url"><![CDATA[Image URL]]></item>
+		<item name="wcf.acp.option.feedpage_image_url.description"><![CDATA[Enter the URL of the image.]]></item>
+		<item name="wcf.acp.option.feedpage_items"><![CDATA[Items]]></item>
+		<item name="wcf.acp.option.feedpage_items.description"><![CDATA[Enter the number of feeds that are to be displayed. Note: This does not apply to the feed page itself, but for Optinal plugins that use the CacheBuilderFeedPage.class.php.]]></item>
+		<item name="wcf.acp.option.feedpage_standardlink_enable"><![CDATA[Standardlink enable?]]></item>
+		<item name="wcf.acp.option.feedpage_standardlink_enable.description"><![CDATA[If you enable a default link for each feed?]]></item>
+		<item name="wcf.acp.option.feedpage_standardlink"><![CDATA[Standardlink]]></item>
+		<item name="wcf.acp.option.feedpage_standardlink.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.feedpage"><![CDATA[Feed]]></item>
+	</category>
+	<category name="wcf.feedpage">
+		<item name="wcf.feedpage.title"><![CDATA[{lang}{PAGE_TITLE}{/lang} Feed]]></item>
+		<item name="wcf.feedpage.description"><![CDATA[Feeds by {lang}{PAGE_TITLE}{/lang}]]></item>
+	</category>
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.feedpage"><![CDATA[<a href="index.php?page=FeedPage">FeedPage</a>]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.page.feedpage.copyright"><![CDATA[<a href="http://community4wcf.de" style="font-size: x-small; text-decoration: none;">FeedPage, developed by Community4WCF</a>]]></item>
+	</category>
+</language>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1729 2011-02-03 16:53:24Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.feedpage.c4w"><![CDATA[C4W]]></item>
+		<item name="wcf.acp.option.category.feedpage.c4w.description"><![CDATA[Here you can change the settings for C4W regarding the feed page.]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_index"><![CDATA[Display activate?]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_index.description"><![CDATA[If you displaying the last {@FEEDPAGE_ITEMS} feeds/news?]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_headline"><![CDATA[Headline anzeigen?]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_headline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_title"><![CDATA[Title show?]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_title.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_author"><![CDATA[Author show?]]></item>
+		<item name="wcf.acp.option.feedpage_c4w_enable_author.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.feedpage">
+		<item name="wcf.feedpage.index.headline"><![CDATA[News]]></item>
+		<item name="wcf.feedpage.index.title"><![CDATA[{@$feed.pubDate|time}{if FEEDPAGE_C4W_ENABLE_TITLE} - {lang}{@$feed.title}{/lang}{/if}{if FEEDPAGE_C4W_ENABLE_AUTHOR}{if FEEDPAGE_C4W_ENABLE_TITLE} , by {else} - {/if}{@$feed.author}{/if}]]></item>
+	</category>
+</language>

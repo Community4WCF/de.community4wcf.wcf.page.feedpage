@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: acpmenu.xml 1026 2010-03-06 18:34:45Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/acp-menu.xsd">
+	<import>		
+		<acpmenuitem name="wcf.acp.menu.link.content.feedpage">
+			<parent>wcf.acp.menu.link.content</parent>
+			<showorder>20</showorder>
+			<options>module_feedpage</options>
+			<permissions>admin.content.feedpage.feedpageshow</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.feedpage.show">
+			<parent>wcf.acp.menu.link.content.feedpage</parent>
+			<icon>icon/feedpageM.png</icon>
+			<showorder>1</showorder>
+			<link>index.php?page=FeedPageList</link>
+			<permissions>admin.content.feedpage.feedpageshow</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.content.feedpage.add">
+			<parent>wcf.acp.menu.link.content.feedpage</parent>
+			<icon>icon/feedpageM.png</icon>
+			<showorder>2</showorder>
+			<link>index.php?form=FeedPageAdd</link>
+			<permissions>admin.content.feedpage.feedpageadd</permissions>
+		</acpmenuitem>
+	</import>
+</data>

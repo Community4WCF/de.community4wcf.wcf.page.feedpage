@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: options.xml 1727 2011-02-03 13:17:13Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<!-- Adds a menu item and sub-item under Options -->
+		<categories>
+			<category name="feedpage">
+				<permissions>admin.content.feedpage.feedpageoptions</permissions>
+				<options>module_feedpage</options>
+			</category>
+			<category name="feedpage.general">
+				<parent>feedpage</parent>
+			</category>
+			<category name="feedpage.image">
+				<parent>feedpage.general</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- module options -->
+			<option name="module_feedpage">
+				<categoryname>module.content.managepages</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<!-- category options -->
+			<option name="feedpage_standardlink_enable">
+				<categoryname>feedpage.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[feedpage_standardlink]]></enableoptions>
+				<showorder>1</showorder>
+			</option>
+			<option name="feedpage_standardlink">
+				<categoryname>feedpage.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>http://</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="feedpage_items">
+				<categoryname>feedpage.general</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>15</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<!-- image options -->
+			<option name="feedpage_image">
+				<categoryname>feedpage.image</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[feedpage_image_url]]></enableoptions>
+				<showorder>1</showorder>
+			</option>
+			<option name="feedpage_image_url">
+				<categoryname>feedpage.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>http://</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<!-- / image options -->
+			<!-- / category options -->
+		</options>
+	</import>
+	<delete>
+		<optioncategory name="feedpage.settings" />
+		<option name="feedpage_title" />
+		<option name="feedpage_description" />
+		<option name="feedpage_copyright" />
+		<option name="feedpage_generator" />
+		<option name="feedpage_link_enable" />
+		<option name="feedpage_link" />
+		<option name="feedpage_language" />
+		<option name="feedpage_image_title" />
+		<option name="feedpage_image_link" />
+		<option name="feedpage_image_description" />
+	</delete>
+</data>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1726 2011-02-03 13:14:25Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.managepages.canViewNewsPage"><![CDATA[Can see the "NewsPage"]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewNewsPage.description"><![CDATA[Members of this group can see "NewsPage".]]></item>
+	</category>
+	<!--
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.feedpage.newspage"><![CDATA[NewsPage]]></item>
+		<item name="wcf.acp.option.category.feedpage.newspage.description"><![CDATA[Here you can adjust the settings for NewsPage.]]></item>
+	</category>
+	-->
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.newspage"><![CDATA[News]]></item>
+	</category>
+	<category name="wcf.feedpage">
+		<item name="wcf.feedpage.newspage.title"><![CDATA[News]]></item>
+		<item name="wcf.feedpage.newspage.description"><![CDATA[News by {lang}{PAGE_TITLE}{/lang}]]></item>
+		<item name="wcf.feedpage.newspage.newstitle"><![CDATA[{$feed.feedID} - {lang}{@$feed.title}{/lang} , by {@$feed.author} ({@$feed.pubDate|time})]]></item>
+	</category>
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.newspage"><![CDATA[<a href="index.php?page=NewsPage">NewsPage</a>]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.page.newspage.copyright"><![CDATA[<a href="http://community4wcf.de" style="font-size: x-small; text-decoration: none;">NewsPage, developed by Community4WCF</a>]]></item>
+	</category>
+</language>

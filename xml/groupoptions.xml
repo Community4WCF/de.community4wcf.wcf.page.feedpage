@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: groupoptions.xml 1707 2011-02-02 13:29:58Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/group-options.xsd">
+	<import>
+		<!-- A new tab and subtab is added to group rights. -->
+		<categories>
+			<category name="user.managepages">
+				<parent>user</parent>
+			</category>
+			<category name="admin.content.feedpage">
+				<parent>admin.content</parent>
+				<options>module_feedpage</options>
+			</category>
+		</categories>
+		<!-- A new rights is added to group rights. -->
+		<options>
+			<option name="user.managepages.canViewFeedPage">
+				<categoryname>user.managepages</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>10</showorder>
+				<options>module_feedpage</options>
+			</option>
+			<option name="admin.content.feedpage.feedpageoptions">
+				<categoryname>admin.content.feedpage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="admin.content.feedpage.feedpageshow">
+				<categoryname>admin.content.feedpage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>2</showorder>
+				<enableoptions><![CDATA[admin.content.feedpage.feedpageadd,admin.content.feedpage.feedpageedit,admin.content.feedpage.feedpagedelete]]></enableoptions>
+			</option>
+			<option name="admin.content.feedpage.feedpageadd">
+				<categoryname>admin.content.feedpage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="admin.content.feedpage.feedpageedit">
+				<categoryname>admin.content.feedpage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<option name="admin.content.feedpage.feedpagedelete">
+				<categoryname>admin.content.feedpage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>5</showorder>
+			</option>
+		</options>
+	</import>
+</data>

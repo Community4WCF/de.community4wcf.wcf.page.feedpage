@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<!-- $Id: options.xml 1722 2011-02-03 12:52:56Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<!--
+	<import>
+		<categories>
+			<category name="feedpage.newspage">
+				<parent>feedpage</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="newspage_title">
+				<categoryname>feedpage.newspage</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>wcf.feedpage.newspage.title</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="newspage_description">
+				<categoryname>feedpage.newspage</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>wcf.feedpage.newspage.description</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+		</options>
+	</import>
+	-->
+	<delete>
+		<optioncategory name="feedpage.newspage" />
+		<option name="newspage_title" />
+		<option name="newspage_description" />
+	</delete>
+</data>

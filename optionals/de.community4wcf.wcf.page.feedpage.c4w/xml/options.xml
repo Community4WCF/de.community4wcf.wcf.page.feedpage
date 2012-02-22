@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: options.xml 1716 2011-02-02 19:56:37Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<!-- Adds a menu item and sub-item under Options -->
+		<categories>
+			<category name="feedpage.c4w">
+				<parent>feedpage</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- category options -->
+			<option name="feedpage_c4w_enable_index">
+				<categoryname>feedpage.c4w</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<!-- <enableoptions><![CDATA[feedpage_c4w_enable_headline,feedpage_c4w_enable_title,feedpage_c4w_enable_author]]></enableoptions> -->
+				<showorder>1</showorder>
+			</option>
+			<option name="feedpage_c4w_enable_headline">
+				<categoryname>feedpage.c4w</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="feedpage_c4w_enable_title">
+				<categoryname>feedpage.c4w</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="feedpage_c4w_enable_author">
+				<categoryname>feedpage.c4w</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<!-- / category options -->
+		</options>
+	</import>
+</data>

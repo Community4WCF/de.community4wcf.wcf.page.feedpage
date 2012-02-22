@@ -1,0 +1,2 @@
+<link rel="alternate" type="application/rss+xml" href="index.php?page=FeedPage&amp;format=rss2" title="{lang}wcf.feedpage.title{/lang} (RSS2)" />
+<link rel="alternate" type="application/atom+xml" href="index.php?page=FeedPage&amp;format=atom" title="{lang}wcf.feedpage.title{/lang} (Atom)" />

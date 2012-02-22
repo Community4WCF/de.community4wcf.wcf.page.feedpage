@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<!-- $Id: pagemenu.xml 1002 2010-03-02 14:45:02Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/page-menu.xsd">	
+	<import>
+		<!-- Adds a menu item in the menu. -->
+		<pagemenuitem name="wcf.header.menu.feedpage">
+			<iconmedium>feedpageM.png</iconmedium>
+			<iconsmall>feedpageS.png</iconsmall>
+			<position>footer</position>
+			<link>index.php?page=FeedPage</link>
+			<permissions>user.managepages.canViewFeedPage</permissions>
+			<options>module_feedpage</options>
+		</pagemenuitem>
+	</import>
+</data>
